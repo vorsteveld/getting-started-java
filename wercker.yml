@@ -1,6 +1,7 @@
 # docker box definition
 box:
   id: openjdk
+  cmd: /bin/bash
   ports:
     - "8080"
 
